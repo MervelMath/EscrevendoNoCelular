@@ -12,6 +12,7 @@ namespace EscrevendoNoCelular.ConsoleApp
         {
             Tela tela = new Tela();
             tela.ReceberMensagem();
+
         }
     }
 }

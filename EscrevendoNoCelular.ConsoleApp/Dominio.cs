@@ -6,97 +6,97 @@ using System.Threading.Tasks;
 
 namespace EscrevendoNoCelular.ConsoleApp
 {
-    public class Mensagem
+    public class Dominio
     {
-        public string EntradaTeclado(string numeros)
+        public string EntradaTeclado(string caractere)
         {
             
-            string nome = "";
-            switch (numeros)
+            string valor = "";
+            switch (caractere.ToUpper())
             {
                 case "A":
-                    nome = "2";
+                    valor = "2";
                     break;
                 case "B":
-                    nome = "22";
+                    valor = "22";
                     break;
                 case "C":
-                    nome = "222";
+                    valor = "222";
                     break;
                 case "D":
-                    nome = "3";
+                    valor = "3";
                     break;
                 case "E":
-                    nome = "33";
+                    valor = "33";
                     break;
                 case "F":
-                    nome = "333";
+                    valor = "333";
                     break;
                 case "G":
-                    nome = "4";
+                    valor = "4";
                     break;
                 case "H":
-                    nome = "44";
+                    valor = "44";
                     break;
                 case "I":
-                    nome = "444";
+                    valor = "444";
                     break;
                 case "J":
-                    nome = "5";
+                    valor = "5";
                     break;
                 case "K":
-                    nome = "55";
+                    valor = "55";
                     break;
                 case "L":
-                    nome = "555";
+                    valor = "555";
                     break;
                 case "M":
-                    nome = "6";
+                    valor = "6";
                     break;
                 case "N":
-                    nome = "66";
+                    valor = "66";
                     break;
                 case "O":
-                    nome = "666";
+                    valor = "666";
                     break;
                 case "P":
-                    nome = "7";
+                    valor = "7";
                     break;
                 case "Q":
-                    nome = "77";
+                    valor = "77";
                     break;
                 case "R":
-                    nome = "777";
+                    valor = "777";
                     break;
                 case "S":
-                    nome = "7777";
+                    valor = "7777";
                     break;
                 case "T":
-                    nome = "8";
+                    valor = "8";
                     break;
                 case "U":
-                    nome = "88";
+                    valor = "88";
                     break;
                 case "V":
-                    nome = "888";
+                    valor = "888";
                     break;
                 case "W":
-                    nome = "9";
+                    valor = "9";
                     break;
                 case "X":
-                    nome = "99";
+                    valor = "99";
                     break;
                 case "Y":
-                    nome = "999";
+                    valor = "999";
                     break;
                 case "Z":
-                    nome = "9999";
+                    valor = "9999";
                     break;
                 case " ":
-                    nome = "0";
+                    valor = "0";
                     break;
             }
-            return nome;
+            return valor;
         }
     }
 }

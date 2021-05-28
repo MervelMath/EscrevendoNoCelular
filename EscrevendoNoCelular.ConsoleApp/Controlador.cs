@@ -8,7 +8,7 @@ namespace EscrevendoNoCelular.ConsoleApp
 {
     public class Controlador
     {
-        Mensagem mensagemUsuario = new Mensagem();
+        Dominio mensagemUsuario = new Dominio();
         public string DividirMensagem(string mensagem)
         {
             string result = "";

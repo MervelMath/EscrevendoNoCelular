@@ -1,5 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EscrevendoNoCelular.ConsoleApp;
+using System;
+
 namespace ValidarSaidas.Test
 {
     [TestClass]
